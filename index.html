@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="원하는 상품의 가격을 비교하고, 구매 전에 확인할 기준을 알아보는 가격 정보 서비스 진짜딜의 시제품입니다.">
+  <title>진짜딜 | 가격을 비교하고, 이유를 확인하다</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✓</span> 진짜딜</a>
+  <nav><a href="#how">이용 방법</a><a href="#compare">비교 예시</a><a href="guide.html">구매 가이드</a><a href="about.html">서비스 소개</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="eyebrow">SMART SHOPPING PROJECT</div>
+    <h1>가격이 내려갔다고<br><span>무조건 특가는 아니니까.</span></h1>
+    <p>가격 기록과 대체 상품을 함께 살펴보고, 구매 전에 한 번 더 판단할 수 있도록 돕는 서비스입니다.</p>
+    <a class="primary-button" href="#compare">비교 예시 보기 <span aria-hidden="true">→</span></a>
+    <div class="hero-note">현재는 시제품입니다. 실시간 가격 수집과 자동 알림은 아직 연결되지 않았습니다.</div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="section-heading"><div><div class="eyebrow">HOW IT WORKS</div><h2>구매 전에 확인할 세 가지</h2></div></div>
+    <div class="feature-grid">
+      <article class="feature"><div class="feature-icon">01</div><h3>정확한 상품 옵션</h3><p>모델명·용량·색상처럼 가격 비교에 영향을 주는 옵션이 같은지 확인합니다.</p></article>
+      <article class="feature"><div class="feature-icon">02</div><h3>가격 기록의 근거</h3><p>최저가라고 표시하려면 관측 기간과 마지막 확인 시각을 함께 보여주는 것을 원칙으로 합니다.</p></article>
+      <article class="feature"><div class="feature-icon">03</div><h3>대체 상품 비교</h3><p>원하는 상품만 보지 않고, 용도와 주요 사양이 비슷한 대체 상품도 함께 비교하는 것을 목표로 합니다.</p></article>
+    </div>
+  </section>
+
+  <section class="section compare-section" id="compare">
+    <div class="section-heading"><div><div class="eyebrow">COMPARISON DEMO</div><h2>대체 상품 비교 예시</h2><p class="section-desc">아래 가격은 기능 설명을 위한 가상 예시이며 실제 판매가가 아닙니다.</p></div><span class="demo-tag">데모 데이터</span></div>
+    <div class="toolbar"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="상품 종류 검색 (예: 마우스)" aria-label="상품 종류 검색"></label><select id="category" aria-label="상품 종류 선택"><option value="all">모든 종류</option><option value="mouse">마우스</option><option value="keyboard">키보드</option><option value="headset">헤드셋</option></select></div>
+    <div id="product-grid" class="product-grid"></div>
+    <p class="fine-print">이 화면은 비교 기능의 시제품입니다. 실제 상품·판매처·가격·재고를 조회하지 않으며, 구매 링크나 제휴 링크도 포함하지 않습니다.</p>
+  </section>
+
+  <section class="cta">
+    <div><div class="eyebrow">OUR PROMISE</div><h2>확인한 것만, 확인했다고 말합니다.</h2><p>가격 기록이 충분하지 않다면 최저가라고 단정하지 않고, 데이터가 없으면 없다고 표시합니다.</p></div>
+    <a class="outline-button" href="guide.html">구매 가이드 읽기 →</a>
+  </section>
+</main>
+<footer class="site-footer">
+  <div><a class="brand" href="index.html"><span class="brand-mark">✓</span> 진짜딜</a><p>가격 비교·구매 판단을 돕기 위한 초기 시제품</p></div>
+  <div class="footer-links"><a href="about.html">서비스 소개</a><a href="privacy.html">개인정보 처리방침</a><a href="contact.html">문의</a></div>
+  <p class="copyright">© 2026 진짜딜. 본 사이트는 독립적인 시제품이며 쿠팡과 제휴·제작 관계가 확정된 상태가 아닙니다.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
